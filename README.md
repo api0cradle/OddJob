@@ -1,2 +1,2 @@
 # OddJob
-Blue Team HTA Detecction Testing 
+Blue Team HTA Detection Testing 
